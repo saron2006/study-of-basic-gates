@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### Study-of-basic-gates
 
 **AIM:** 
 
@@ -62,18 +62,39 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
+# PROGRAM :
+```
+Developed by: SARON XAVIER A
+Register number; 212223230197
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
-**Logic symbol & Truthtable**
+module gates_exp1(a, b, c, d, e, x, y, z);
+  input a, b;
+  output c, d, e, x, y, z;
 
-**RTL realization Output:** 
+  assign c = a & b;   // AND gate
+  assign d = a | b;   // OR gate
+  assign e = a ^ b;   // XOR gate
+  assign x = ~(a & b); // NAND gate
+  assign y = ~(a | b); // NOR gate
+  assign z = ~(a ^ b); // XNOR gate
 
-**RTL**
+endmodule
 
-**Result:**
+```
+
+# Logic symbol & Truthtable:
+![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/e7d4403c-9ae7-46ee-a8e9-24da4cfccb7c)
+![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/b641689f-1c38-4ac5-9bde-6e3b4b8da819)
+
+# RTL realization Output:
+![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/9d62d15b-daf3-4805-95df-73734e5d3162)
+
+# RTL:
+![image](https://github.com/arbasil05/study-of-basic-gates/assets/144218037/eef17cc9-d18d-4d55-a9d5-7f2c849d24dd)
+
+
+# Result:
+Thus the given the truth table of the logic gates have been verified
 
 
